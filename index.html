@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Food (Grid)</title>
+  </head>
+  <body>
+    <div class="hero-section">
+      <div class="navbar">
+        <h2 class="logo">Logo</h2>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#offers">Offers</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="navbar-icons">
+          <?xml version="1.0" ?><svg
+            baseProfile="tiny"
+            class="navbar-icon"
+            version="1.2"
+            viewBox="0 0 24 24"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <g id="Layer_1">
+              <g>
+                <path
+                  d="M20.756,5.345C20.565,5.126,20.29,5,20,5H6.181L5.986,3.836C5.906,3.354,5.489,3,5,3H2.75c-0.553,0-1,0.447-1,1    s0.447,1,1,1h1.403l1.86,11.164c0.008,0.045,0.031,0.082,0.045,0.124c0.016,0.053,0.029,0.103,0.054,0.151    c0.032,0.066,0.075,0.122,0.12,0.179c0.031,0.039,0.059,0.078,0.095,0.112c0.058,0.054,0.125,0.092,0.193,0.13    c0.038,0.021,0.071,0.049,0.112,0.065C6.748,16.972,6.87,17,6.999,17C7,17,18,17,18,17c0.553,0,1-0.447,1-1s-0.447-1-1-1H7.847    l-0.166-1H19c0.498,0,0.92-0.366,0.99-0.858l1-7C21.031,5.854,20.945,5.563,20.756,5.345z M18.847,7l-0.285,2H15V7H18.847z M14,7    v2h-3V7H14z M14,10v2h-3v-2H14z M10,7v2H7C6.947,9,6.899,9.015,6.852,9.03L6.514,7H10z M7.014,10H10v2H7.347L7.014,10z M15,12v-2    h3.418l-0.285,2H15z"
+                />
+                <circle cx="8.5" cy="19.5" r="1.5" />
+                <circle cx="17.5" cy="19.5" r="1.5" />
+              </g>
+            </g>
+          </svg>
+          <svg
+            enable-background="new 0 0 48 48"
+            class="navbar-icon"
+            version="1.1"
+            viewBox="0 0 48 48"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <g id="Expanded">
+              <g>
+                <g>
+                  <path
+                    d="M36,48H12c-0.522,0-0.957-0.402-0.997-0.923L9.07,21.946C5.095,21.484,2,18.097,2,14c0-4.419,3.678-8.151,8.032-8.151     c0.91,0,1.803,0.177,2.636,0.52C14.072,2.509,18.439,0,24,0c5.224,0,8.878,2.112,11.14,6.45c0.887-0.396,1.848-0.602,2.828-0.602     C42.322,5.849,46,9.581,46,14c0,4.097-3.095,7.484-7.07,7.946l-1.933,25.131C36.957,47.598,36.522,48,36,48z M12.926,46h22.147     l1.929-25.077C37.043,20.402,37.478,20,38,20c3.309,0,6-2.691,6-6c0-3.625-3.179-6.151-6.032-6.151     c-0.982,0-1.899,0.274-2.724,0.817c-0.245,0.161-0.551,0.207-0.832,0.123c-0.282-0.083-0.513-0.285-0.632-0.555     C31.898,3.981,28.791,2,24,2c-5.157,0-9.059,2.415-9.71,6.009c-0.06,0.33-0.281,0.608-0.59,0.74     c-0.308,0.134-0.663,0.102-0.943-0.083c-0.825-0.543-1.742-0.817-2.724-0.817C7.179,7.849,4,10.375,4,14c0,3.309,2.691,6,6,6     c0.522,0,0.957,0.402,0.997,0.923L12.926,46z"
+                  />
+                </g>
+                <g>
+                  <path
+                    d="M36.625,40h-25.25c-0.552,0-1-0.447-1-1s0.448-1,1-1h25.25c0.552,0,1,0.447,1,1S37.177,40,36.625,40z"
+                  />
+                </g>
+                <g>
+                  <path
+                    d="M19,40c-0.552,0-1-0.447-1-1v-8c0-0.553,0.448-1,1-1s1,0.447,1,1v8C20,39.553,19.552,40,19,40z"
+                  />
+                </g>
+                <g>
+                  <path
+                    d="M24,40c-0.552,0-1-0.447-1-1V29c0-0.553,0.448-1,1-1s1,0.447,1,1v10C25,39.553,24.552,40,24,40z"
+                  />
+                </g>
+                <g>
+                  <path
+                    d="M29,40c-0.552,0-1-0.447-1-1v-8c0-0.553,0.448-1,1-1s1,0.447,1,1v8C30,39.553,29.552,40,29,40z"
+                  />
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div class="hero">
+        <div class="hero-description">
+          <h1>
+            Low Price <br />
+            High Quality
+          </h1>
+          <p>
+            We always cook amazing food for our customers. <br />
+            We are always happy when we cook for you! <br />
+            We cook with healthy products for your health <br />
+            What are you waiting for? Make us happy. <br />
+          </p>
+        </div>
+        <div class="img-container">
+          <img src="pexels-ella-olsson-1640777.jpg" alt="" />
+          <div class="img-btns">
+            <a href="#pricing" class="hero-btn">Make us Happy</a>
+            <a href="#description" class="hero-btn">Learn More ↓ </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="description" id="description">
+      <img class="description-img" src="Capture.PNG" alt="" />
+      <div class="description-container">
+        <h2>International Food</h2>
+        <p>
+          A variety of food from different countries <br />
+          cooked by native chef. We have Italian, Greek, <br />
+          French, Spanish, German, Portuguese <br />
+          and much more food from different countries. <br />
+        </p>
+      </div>
+    </div>
+    <div class="description">
+      <div class="description-container">
+        <h2>Healthy Food</h2>
+        <p>
+          We always cook healthy food with healthy products for our costumers.
+          Our Food doesn’t contain huge amount of calories. also we dont have
+          junk food for your health!
+        </p>
+      </div>
+      <img
+        class="description-img"
+        src="lily-banse--YHSwy6uqvk-unsplash.jpg"
+        alt=""
+      />
+    </div>
+    <div class="description third-description">
+      <img
+        class="description-img"
+        src="the-matter-of-food-SPRpONyS_BI-unsplash.jpg"
+        alt=""
+      />
+      <div class="description-container">
+        <h2>High Quality</h2>
+        <p>
+          We Always cook high quality food for our <br />
+          customers. Our food is considered high <br />
+          quality because our food contains fresh <br />
+          products from village. <br />
+        </p>
+      </div>
+    </div>
+    <div class="trusted-companies" id="offers">
+      <h3>Trusted Companies</h3>
+      <div class="company-logos">
+        <img class="forbes-logo logo" src="forbes-logo-40215.png" alt="" />
+        <img class="visa-logo logo" src="visa-logo-png-2016 (1).png" alt="" />
+        <img
+          class="logo mastercard-logo"
+          src="discover-logo-png-pic-5681.png"
+          alt=""
+        />
+        <img
+          class="starbucks-logo logo"
+          src="starbucks-logo-png-1667.png"
+          alt=""
+        />
+        <img class="paypal-logo logo" src="paypal-logo-png-2116.png" alt="" />
+      </div>
+    </div>
+    <div class="food-offers">
+      <div class="offer">
+        <div class="offer-img">
+          <img src="jakub-dziubak-iOHJKJqO6E0-unsplash.jpg" alt="" />
+        </div>
+        <div class="offer-container">
+          <h3 class="vegetarian">vegetarian</h3>
+        </div>
+        <h2>Japanese Sushi</h2>
+        <div class="offer-icons">
+          <div class="icon-container">
+            <img src="fire (1).png" alt="" />
+            <p>734 calories</p>
+          </div>
+          <div class="icon-container">
+            <img src="plate.png" alt="" />
+            <p>NutriScore ® 79</p>
+          </div>
+          <div class="icon-container">
+            <img src="star (1).png" alt="" />
+            <p>4.8 rating (965)</p>
+          </div>
+        </div>
+      </div>
+      <div class="offer">
+        <div class="offer-img">
+          <img src="ivan-torres-MQUqbmszGGM-unsplash.jpg" alt="" />
+        </div>
+        <div class="offer-container">
+          <h3 class="pescatarian">pescatarian</h3>
+          <h3 class="paleo">paleo</h3>
+        </div>
+        <h2>Italian Pizza</h2>
+        <div class="offer-icons">
+          <div class="icon-container">
+            <img src="fire (1).png" alt="" />
+            <p>984 calories</p>
+          </div>
+          <div class="icon-container">
+            <img src="plate.png" alt="" />
+            <p>NutriScore ® 90</p>
+          </div>
+          <div class="icon-container">
+            <img src="star (1).png" alt="" />
+            <p>4.8 rating (577)</p>
+          </div>
+        </div>
+      </div>
+      <div class="offer">
+        <div class="offer-img">
+          <img src="yoav-aziz-AiHJiRCwB3w-unsplash.jpg" alt="" />
+        </div>
+        <div class="offer-container">
+          <h3 class="gluten-free">gluten-free</h3>
+          <h3 class="vegan">vegan</h3>
+        </div>
+        <h2>Caesar Salad</h2>
+        <div class="offer-icons">
+          <div class="icon-container">
+            <img src="fire (1).png" alt="" />
+            <p>467 calories</p>
+          </div>
+          <div class="icon-container">
+            <img src="plate.png" alt="" />
+            <p>NutriScore ® 84</p>
+          </div>
+          <div class="icon-container">
+            <img src="star (1).png" alt="" />
+            <p>4.8 rating (356)</p>
+          </div>
+        </div>
+      </div>
+      <div class="offer">
+        <div class="offer-img">
+          <img src="keriliwi-H-VwuGQS278-unsplash.jpg" alt="" />
+        </div>
+        <div class="offer-container last-offer-container">
+          <h3 class="vegetarian">vegetarian</h3>
+          <h3 class="lactose-free">lactose-free</h3>
+          <h3 class="kid-friendly">kid-friendly</h3>
+        </div>
+        <h2>French Food</h2>
+        <div class="offer-icons">
+          <div class="icon-container">
+            <img src="fire (1).png" alt="" />
+            <p>574 calories</p>
+          </div>
+          <div class="icon-container">
+            <img src="plate.png" alt="" />
+            <p>NutriScore ® 98</p>
+          </div>
+          <div class="icon-container">
+            <img src="star (1).png" alt="" />
+            <p>4.8 rating (845)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonials" id="about">
+      <div class="testimonials-header">
+        <h3>testimonials</h3>
+        <h1>What People Think About us</h1>
+    </div>
+      <div class="reviews">
+        <div class="review">
+            <img src="mika-W0i1N6FdCWA-unsplash.jpg" alt="">
+            <p>
+              After finding this website i started <br>
+              eating healthy food for low price, <br>
+              i stopped cooking at home and i have <br>
+              more time to do  things that i like. <br>              
+            </p>
+            <p class="review-author"> - John Smith</p>
+        </div>
+        <div class="review">
+            <img src="seth-doyle-uJ8LNVCBjFQ-unsplash.jpg" alt="">
+            <p>
+             I’m a vegetarian and food is amazing. <br>
+             Here i found excellent food for <br>
+             vegetarians. Food is only cooked with <br>
+             healthy products and it’s really cool. <br>           
+            </p>
+            <p class="review-author"> - Mary Robinson</p>
+        </div>
+        <div class="review">
+            <img src="cesar-rincon-XHVpWcr5grQ-unsplash.jpg" alt="">
+            <p>
+              I was spending much of my time cooking <br>
+              and money. After discovering this website <br>
+              i started spending less time on cooking <br>
+              and concentrated on more important stuff. <br>
+            </p>
+            <p class="review-author"> - Mark Williams</p>
+        </div>
+      </div>
+      <div class="pricings" id="pricing">
+        <div class="pricing-header">
+            <h3>pricing</h3>
+            <h1>Low Price, High Quality</h1>
+        </div>
+        <div class="pricing-container">
+      <div class="pricing">
+        <h3 class="pricing-type">starter</h3>
+        <div class="product-price">
+            <h3>$</h3><h1>299</h1>
+        </div>
+         <h3 class="offer-type">Cheapest Offer</h3>
+         <div class="offers-container">
+         <div class="offers">
+             <img src="correct.png" alt="">
+             <p>2 meal per day</p>
+         </div>
+         <div class="offers">
+             <img src="correct.png" alt="">
+             <p>Order from 10am 5pm</p>
+         </div>
+         <div class="offers">
+             <img src="correct.png" alt="">
+             <p>Healthy</p>
+         </div>
+         <div class="offers">
+             <img src="close.png" alt="">
+             <p>Free Delivery</p>
+         </div>
+         <div class="offers">
+             <img src="close.png" alt="">
+             <p>Free Coffee</p>
+         </div>
+         <div class="offers">
+             <img src="close.png" alt="">
+             <p>Cashback</p>
+         </div>
+        </div>
+      </div>
+      <div class="main-pricing">
+        <p class="best-value">best value</p>
+         <h3 class="pricing-type">medium</h3>
+         <div class="product-price">
+            <h3>$</h3><h1>370</h1><p class="sale">-35%</p>
+        </div>
+        <h3 class="offer-type">Best Offer</h3>
+        <div class="offers-container">
+            <div class="offers">
+                <img src="correct.png" alt="">
+                <p>5 meal per day</p>
+            </div>
+            <div class="offers">
+                <img src="correct.png" alt="">
+                <p>Order 24/7</p>
+            </div>
+            <div class="offers">
+                <img src="correct.png" alt="">
+                <p>Healthy</p>
+            </div>
+            <div class="offers">
+                <img src="correct.png" alt="">
+                <p>Free Delivery</p>
+            </div>
+            <div class="offers">
+                <img src="correct.png" alt="">
+                <p>Free Coffee</p>
+            </div>
+            <div class="offers">
+                <img src="correct.png" alt="">
+                <p>Cashback</p>
+            </div>
+            <div class="offers">
+                <img src="correct.png" alt="">
+                <p>-50% on drinks</p>
+            </div>
+        </div>
+      </div>
+      <div class="pricing">
+         <h3 class="pricing-type">premium</h3>
+         <div class="product-price">
+            <h3>$</h3><h1>599</h1>
+        </div>
+        <h3 class="offer-type">For The Family</h3>
+        <div class="offers-container">
+            <div class="offers">
+                <img src="correct.png" alt="">
+                <p>Unlimited meal</p>
+            </div>
+            <div class="offers">
+                <img src="correct.png" alt="">
+                <p>Order 24/7</p>
+            </div>
+            <div class="offers">
+                <img src="correct.png" alt="">
+                <p>-80% For Kids</p>
+            </div>
+            <div class="offers">
+                <img src="correct.png" alt="">
+                <p>Free Delivery</p>
+            </div>
+            <div class="offers">
+                <img src="correct.png" alt="">
+                <p>Free Coffee</p>
+            </div>
+            <div class="offers">
+                <img src="correct.png" alt="">
+                <p>Cashback</p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="footer" id="contact">
+      <div class="column-container">
+      <div class="footer-column">
+      <h2 class="footer-logo">Logo</h2>
+      <div class="icons">
+          <a href="#"><ion-icon class="icon" name="logo-facebook"></ion-icon></a>
+          <a href="#"><ion-icon class="icon" name="logo-instagram"></ion-icon></a>
+          <a href="#"><ion-icon class="icon" name="logo-twitter"></ion-icon></a>
+          <a href="#"><ion-icon class="icon" name="logo-google"></ion-icon></a>
+    </div>
+    <p>Copyright © 2022. All Rights Reserved</p>
+  </div>
+  <div class="footer-column">
+      <h2>Account</h2>
+      <a href="#">Log in</a>
+      <a href="#">Sign Up</a>
+      <a href="#">Register</a>
+      <a href="#">Android App</a>
+  </div>
+  <div class="footer-column">
+      <h2>Company</h2>
+      <a href="#">About Us</a>
+      <a href="#">Blog</a>
+      <a href="#">Offers</a>
+      <a href="#">Contact Us</a>
+  </div>
+  <div class="footer-column">
+      <h2>Product</h2>
+      <a href="#">Food</a>
+      <a href="#">Drink</a>
+      <a href="#">Alcohol</a>
+      <a href="#">Lemonade</a>
+   </div>
+  <div class="footer-column">
+      <h2>Learn More</h2>
+      <a href="#">FAQ</a>
+      <a href="#">Privacy & Policy</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Recipes</a>
+   </div>
+  </div>
+ </div>
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  </body>
+</html>
